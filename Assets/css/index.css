@@ -1,0 +1,38 @@
+body {
+    width: 960px;
+}
+header {
+    background-color: greenyellow;
+    width: 10%;
+    float: left; 
+    
+    
+}
+#section {
+    background-color: white;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+    
+.about {
+    float: right;
+
+    
+}
+}
+.portfolio {
+    float: left;
+}
+
+.contact {
+    float: left;
+}
+
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: left;
+
+}

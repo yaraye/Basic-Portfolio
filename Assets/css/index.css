@@ -1,38 +1,59 @@
 body {
-    width: 960px;
+    width: 70%;
+    margin: auto;
+    background-image: url("sun-pattern.png");
 }
+
 header {
-    background-color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    display: block;
     width: 10%;
-    float: left; 
-    
-    
+    padding: 20px;
+    float: left;
+    margin-bottom: 20px;
 }
-#section {
-    background-color: white;
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: block;  
+    background: #ffffff; 
+    width: 40%;
+    margin-top: 20px;
+}
+
+#p1 {
+    float: left;
+    margin-right: 20px;
+}
+#p2 {
+    float: left;
+    margin-right: 20px;
+}
+#p3 {
+    float: left;
+    margin-right: 20px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
     clear: both;
     overflow: auto;
-    width: 100%;
+    color: #4aaaa5;
 }
-    
-.about {
-    float: right;
-
-    
+.main-content {
+    width: 960px;
+   margin: auto;
+   background: #ffffff;
+   border: 5px;
+   border-color: #dddddd; 
 }
-}
-.portfolio {
+img {
     float: left;
+    width: 100px;
+    height: 100px;;
 }
-
-.contact {
-    float: left;
-}
-
-
-.clearfix {
-    content: "";
-    display: block;
-    clear: left;
-
+#para {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
 }

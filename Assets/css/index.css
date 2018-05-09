@@ -1,31 +1,33 @@
 body {
     width: 70%;
     margin: auto;
+    background-image: url("../images/palm-leaf.png");  
+    border: #4aaaa5;
+    height: 50%;
 }
+
+
 heading{
     float:left;
+    width: 100px;
+    height: 5px;
+    padding: 30px;
+    background:  #4aaaa5;
 }
 nav{
     float:right;
+    margin-top: 20px;
 }
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+    background:#ffffff;
     display: block;
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
+
 }
 
-.info {
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    display: block;  
-    background: #ffffff; 
-    width: 40%;
-    height:100px;
-    margin-top: 20px;
-}
 
 #p1 {
     float: left;
@@ -44,14 +46,18 @@ h1 {
     clear: both;
     overflow: auto;
     color: #4aaaa5;
+    font-size: 24px;
 }
+
+
 .main-content {
     width: 960px;
-   margin: auto;
+    height: 300px;
+   margin-top: 80px;
    background: #ffffff;
    border: 5px;
    border-color: #dddddd;  
-   background-image: url("../images/palm-leaf.png");
+   
 }
 img {
     float: left;

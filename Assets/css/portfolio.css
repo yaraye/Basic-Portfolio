@@ -84,12 +84,11 @@ body {
 
 .text {
     position: relative;
-    top: -80px;
-    left: 16px;
+    top: -70px;
     color: white;
     background:#4aaaa5;
-    width: 150px;
-    margin-left: 10px;
+    width: 250px;
+   
     text-align: center;
     
 }

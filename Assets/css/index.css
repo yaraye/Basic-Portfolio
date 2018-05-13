@@ -39,7 +39,7 @@ header {
   margin:0 auto;
   clear: both;
   overflow: auto;
-  background:#ffffff;
+  background:rgb(219, 207, 207);
   border: 1px solid #dddddd;
   margin-top: 100px;
 }

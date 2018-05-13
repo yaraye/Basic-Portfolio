@@ -7,15 +7,17 @@ body {
   background-image: url("../images/palm-leaf.png")
 }
 
-heading {
+.head-el {
   border: 1px solid #dddddd;
   margin-left: 200px;
+  float: left;
+  
   color: white;  
-  padding: 35px;
+  padding: 10px;
   background: #4aaaa5;
   font-weight: bold; 
   text-align: center;
-  margin-bottom: 20px;
+  margin-top:20px;
 
 }
 

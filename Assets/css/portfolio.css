@@ -7,15 +7,17 @@ body {
     background-image: url("../images/palm-leaf.png")
   }
   
-  heading {
+  .head-el {
     border: 1px solid #dddddd;
     margin-left: 200px;
+    float: left;
+    
     color: white;  
-    padding: 35px;
+    padding: 10px;
     background: #4aaaa5;
     font-weight: bold; 
     text-align: center;
-    margin-bottom: 20px;
+    margin-top:20px;
   
   }
   
@@ -29,17 +31,6 @@ body {
     border-bottom: 1px solid #cccccc;
     position: fixed; 
     width: 110%;
-  }
-  
-  .containte {
-    width: 100%;
-    max-width: 700px;
-    margin:0 auto;
-    clear: both;
-    overflow: auto;
-    background:#ffffff;
-    border: 1px solid #dddddd;
-    margin-top: 100px;
   }
   
   nav{
@@ -61,52 +52,74 @@ body {
      float: left;
      margin-right: 20px;
   }
-  h1 {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     clear: both;
-     overflow: auto;
-     color: #4aaaa5;
-     font-size: 24px;
-     margin-left: 20px;
+
+  h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #4aaaa5;
+      margin-left: 20px;
   }
- 
+  hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
 
-img {
+.container {
+    background: white;
     display: block;
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;  
+    border: 1px solid black;
+    width: 700px;
+    height: 600px;
+    margin-left: 200px;
+    clear: both;
+    margin-top:130px;
+    
+  
+}
+.img-container{
+    position: relative;
+    width:700px;
+    height: 800px;
 }
 
-#img1 {
-    border: 3px solid #73AD21;
-    float: left;
-    margin-bottom: 20px;
+.text {
+    position: relative;
+    top: -80px;
+    left: 16px;
+    color: white;
+    background:#4aaaa5;
+    width: 150px;
+    margin-left: 10px;
+    text-align: center;
+    
 }
 
-
-#img2 {
-    border: 3px solid pink;
-    float: left;
-    margin-bottom: 20px;
+.img, .img1, .img2, .img3, .img4{
+    position: absolute;
 }
 
-#img3 {
-    border: 3px solid yellow;   
-    float: left;
-    margin-bottom: 20px;
+.img{
+    top: 20px;
+    left: 50px;  
 }
 
-#img4 {
-    border: 3px solid red;
-    float: left;
-    margin-bottom: 20px;
+.img1 {
+    top: 20px;
+    right:50px;
 }
 
-#img5 {
-    border: 3px solid blue;
-    float: left;
-    margin-bottom: 20px;
+.img2 {
+   left:50px;
+    bottom:400px;
+}
+.img3 {
+    right:50px;
+    bottom: 400px;
+}
+
+.img4{
+    left: 50px;
+    bottom:250px;
 }
 
 
@@ -117,13 +130,9 @@ img {
     bottom: 0;
     width: 100%;  
     border-top: 10px solid #4aaaa5;
+    padding: 10px;
   }
   
-  hr {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+ 
 
 
-
-    

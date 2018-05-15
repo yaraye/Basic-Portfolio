@@ -40,17 +40,6 @@ nav{
 
 .p1,.p2,.p3 {
   margin-top: 30px;
-}
-  
-.p1 {
-  float: left;
-  margin-right: 20px;
-}
-.p2 {
-  float: left;
-  margin-right: 20px;
-}
-.p3 {
   float: left;
   margin-right: 20px;
 }

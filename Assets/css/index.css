@@ -52,19 +52,10 @@ nav{
 
 .p1,.p2,.p3 {
   margin-top: 30px;
+  float: left;
+  margin-right: 20px;
 }
-.p1 {
-   float: left;
-   margin-right: 20px;
-}
-.p2 {
-   float: left;
-   margin-right: 20px;
-}
-.p3 {
-   float: left;
-   margin-right: 20px;
-}
+
 h1 {
    font-family: Georgia, 'Times New Roman', Times, serif;
    clear: both;
